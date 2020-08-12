@@ -1,17 +1,67 @@
-# TEALS Infrastructure Prototype
-## Dev Container for Java on codespaces
-
-This repository contains Java infrastructure to help you get started.
+# TEALS Codespaces for Ephrata High School
+## Creates a Development Container for Java on Visual Studio Codespaces
 
 ## Prereqs
 
-To create the codespace, you'll need the following:
+To create the Codespace, you'll need the following:
 
-- A Microsoft Account.  If you don't already have one you can [Create one HERE](https://signup.live.com)
+### Azure for Student subscription (or existing Azure subscription)
 
-- A GitHub Username.  If you don't already have one you can [Create one HERE](https://github.com).  You should use the same email you used to create your Microsoft Account.
+Creating an Azure for Student subscription is a three-step process.
 
-- A Microsoft Azure subscription. If you don't already have one, you can sign up for a [Free Trial HERE](https://azure.microsoft.com) or a [Student Subscription HERE](https://aks.ms/azureforstudents)
+    1. Create a new Outlook.com email account
+    2. Redeem your Student Verification Code
+    3. Activate your subscription
+
+`Step 1:` Create a new Outlook.com email account:
+
+Open a new In-Private Browser session and navigate to https://signup.live.com and create a new Outlook.com email account
+
+* Click on the Get A New Email Address button
+* Add in the email address you would like to use - if the username is not
+available Microsoft will offer several suggestions
+* Create a new password for the account
+* Add in your name, country/region and date of birth and validate using
+Captcha
+
+The account will be created
+* Select More Actions and click View Inbox
+
+`Step 2:` Redeeming a Microsoft Azure Student Verification Code:
+
+Open a new In-Private Browser session and navigate to: http://aka.ms/azure4students
+
+It is recommended you close all browsers and open a new In-Private Browser
+session. Other logins can persist and cause errors during the activation step.
+
+* Click the `Activate now` button to get started.
+
+* Verify your identity with a phone number
+* Enter your 25-character verification code and click `Verify Academic Status`.
+
+`Note` It may take up to 5 minutes to process the redemption.
+
+`Step 3:` Activate your subscription:
+
+* When the redemption process is completed, it will redirect to the sign-up
+page.
+
+* Enter your account information and click `Next`.
+* Click the agreement check box and click the `Sign up` button.
+
+`Note` It may take a few minutes to process the request.
+
+* Your Azure subscription is ready
+* You can check the balance of your Azure Pass Credits on https://www.microsoftazuresponsorships.com/balance
+
+
+1. Create a new outlook.com email account [HERE](https://account.microsoft.com/)
+
+    * Select `Sign in`, and then choose `Create one!`
+    * Choose `Get a new email address`
+    * Enter an email name choose `Next`, and then follow the instructions.
+    
+    Note that the email will need to be available so you may see this message `Someone already has this email address. Try another name or claim one of these that's available`
 
 - A Visual Studio Online environment.  If you don't already have one you can [Create one HERE](https://online.visualstudio.com)
 
@@ -25,25 +75,27 @@ To create the codespace, you'll need the following:
 
 ![codespacesSignIn](https://raw.githubusercontent.com/DataSnowman/TEALS1/master/images/codespacesSignIn.png)
 
-## Configure your GitHub
+### Configure your GitHub
 
-1. Click [Here](https://github.com/DataSnowman/TEALS1) and sign in with your GitHub Username
+If you don't already have a GitHub Username you can [Create one HERE](https://github.com).  You should use the same email you used to create your Microsoft Account.
 
-2. Click on Fork in the TEALS1 Repository
+1. Click [Here](https://github.com/DataSnowman/EphrataTEALS) and sign in with your GitHub Username
+
+2. Click on Fork in the EphrataTEALS Repository
 
     - Click on Fork
 
-        ![fork](https://raw.githubusercontent.com/DataSnowman/TEALS1/master/images/fork.png)
+        ![fork](https://raw.githubusercontent.com/DataSnowman/EphrataTEALS/master/images/fork.png)
 
     - Click on your GitHub username
 
-        ![forkdest](https://raw.githubusercontent.com/DataSnowman/TEALS1/master/images/forkdest.png)
+        ![forkdest](https://raw.githubusercontent.com/DataSnowman/EphrataTEALS/master/images/forkdest.png)
 
-3. You now have a copy of the TEALS1 repository in your GitHub
+3. You now have a copy of the EphrataTEALS repository in your GitHub
 
-    ![yourcopy](https://raw.githubusercontent.com/DataSnowman/TEALS1/master/images/yourcopy.png)
+    ![yourcopy](https://raw.githubusercontent.com/DataSnowman/EphrataTEALS/master/images/yourcopy.png)
 
-    My username was darsch so the repository shows up as darsh/TEALS1.  Yours should be `<GitHubusername>/TEALS'
+    My username was darsch so the repository shows up as darsh/EphrataTEALS.  Yours should be `<GitHubusername>/EphrataTEALS'
 
 4. Set up the codespace environment:
 
@@ -55,19 +107,19 @@ To create the codespace, you'll need the following:
 
 1. Click `Create Codespace`
 
-![codespacesCreate](https://raw.githubusercontent.com/DataSnowman/TEALS1/master/images/codespacesCreate.png)
+![codespacesCreate](https://raw.githubusercontent.com/DataSnowman/EphrataTEALS/master/images/codespacesCreate.png)
 
 - If you don't already have Visual Studio Online plan, create one. This is used to track resource utlization by your Visual Studio Online environments.
 
-![codespacesCreateBillingPlan](https://raw.githubusercontent.com/DataSnowman/TEALS1/master/images/codespacesCreateBillingPlan.png)
+![codespacesCreateBillingPlan](https://raw.githubusercontent.com/DataSnowman/EphrataTEALS/master/images/codespacesCreateBillingPlan.png)
 
     Then create an environment with the following settings:
 
-![codespacesCreateEnv](https://raw.githubusercontent.com/DataSnowman/TEALS1/master/images/codespacesCreateEnv.png)
+![codespacesCreateEnv](https://raw.githubusercontent.com/DataSnowman/EphrataTEALS/master/images/codespacesCreateEnv.png)
 
 **Environment Name**: A name for your environment - for example, `Java-Dev`
 
-**Git Repository**: `<GitHubUsername>/TEALS1`
+**Git Repository**: `<GitHubUsername>/EphrataTEALS`
 
 **Instance Type**: `Basic (Linux) 2 cores, 4GB RAM`
 
@@ -87,11 +139,11 @@ To open the terminal in your codespace you can ethier use key shortcut
 Ctrl + `
 ``
 
-![terminalshortcut](https://raw.githubusercontent.com/DataSnowman/TEALS1/master/images/terminalshortcut.png)
+![terminalshortcut](https://raw.githubusercontent.com/DataSnowman/EphrataTEALS/master/images/terminalshortcut.png)
 
 Or use the Application Menu select `Terminal>New Terminal`
 
-![terminalMenu](https://raw.githubusercontent.com/DataSnowman/TEALS1/master/images/terminalMenu.png)
+![terminalMenu](https://raw.githubusercontent.com/DataSnowman/EphrataTEALS/master/images/terminalMenu.png)
 
 In the terminal copy and paste the following commands:
 
