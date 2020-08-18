@@ -20,11 +20,13 @@ Creating an Azure for Student subscription is a three-step process.
 
 Click [HERE](https://github.com/DataSnowman/EphrataTEALS/tree/master/docs/AzureForStudentVerificationActivation.pdf) to open the AzureForStudentVerificationActivation.pdf which has more details.
 
+Here are the basic directions if you don't use the pdf.
+
 `Step 1:` Create a new Outlook.com email account:
 
 Open a new In-Private Browser session and navigate to https://signup.live.com and create a new Outlook.com email account
 
-* Click on the Get A New Email Address button
+* Click on the `Get A New Email Address` button
 * Add in the email address you would like to use - if the username is not
 available Microsoft will offer several suggestions
 * Create a new password for the account
@@ -83,7 +85,7 @@ If you don't already have a GitHub Username you can [Create one HERE](https://gi
 
     ![yourcopy](https://raw.githubusercontent.com/DataSnowman/EphrataTEALS/master/images/yourcopy.png)
 
-    My username was darsch so the repository shows up as darsh/EphrataTEALS.  Yours should be `<GitHubusername>/EphrataTEALS'
+    My username was darsch so the repository shows up as darsh/EphrataTEALS.  Yours should be `<GitHubusername>`/EphrataTEALS
 
 
 ### Visual Studio Online Codespace - Configure your Codespace
