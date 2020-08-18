@@ -1,4 +1,4 @@
-package studentWork.DrawBoxes;
+package studentWork.sampleCode;
 
 public class DrawBoxes {
     public static void main (String[] args){
