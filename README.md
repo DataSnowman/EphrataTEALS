@@ -124,13 +124,13 @@ Wait for a minute or so while the environment is set up for you. It might look l
 
 After the REFRESH NOW file has appeared, refresh the web page to ensure all of the extensions are loaded and you're ready to start.
 
-## Configure GitHub Username and email and Remote for Fork
+### Configure GitHub Username and email and Remote for Fork
 
-To open the terminal in your codespace you can ethier use key shortcut
+To open the terminal in your codespace you can either use key shortcut
 
-``
+```
 Ctrl + `
-``
+```
 
 ![terminalshortcut](https://raw.githubusercontent.com/DataSnowman/EphrataTEALS/master/images/terminalshortcut.png)
 
@@ -140,12 +140,13 @@ Or use the Application Menu select `Terminal>New Terminal`
 
 In the terminal copy and paste the following commands:
 
-``pwd
-``
+```
+pwd
+```
 
-``
+```
 git status
-``
+```
 
 ![terminalOutput](https://raw.githubusercontent.com/DataSnowman/EphrataTEALS/master/images/terminalOutput.png)
 
@@ -154,17 +155,17 @@ git status
 
 Enter with your username replacing `<GitHubusername>`
 
-``
+```
 git config --global user.name "<GitHubusername>"
-``
+```
 
 Confirm that you have set the username correctly in Git:
 
 Enter
 
-``
+```
 git config --global user.name
-``
+```
 
 Returns
 
@@ -176,17 +177,17 @@ YourGitHubusername
 
 Enter with your email replacing `email@example.com`
 
-``
+```
 git config --global user.email "email@example.com"
-``
+```
 
 Confirm that you have set the email address correctly in Git:
 
 Enter
 
-``
+```
 git config --global user.email
-``
+```
 
 Returns
 
@@ -200,61 +201,62 @@ Setup Remote Upstream
 
 Enter
 
-``
+```
 git remote -v
-``
+```
 
 Returns
 
-``
+```
 > origin  https://github.com/YOUR_USERNAME/YOUR_FORK.git (fetch)
 > origin  https://github.com/YOUR_USERNAME/YOUR_FORK.git (push)
-``
+```
 
 Specify a new remote upstream repository that will be synced with the fork.
 
 Enter
 
-``
+```
 git remote add upstream https://github.com/DataSnowman/EphrataTEALS.git
-``
+```
 
 Verify the new upstream repository you've specified for your fork.
 
 Enter
 
-``
+```
 git remote -v
-``
+```
 
 Returns
 
-``
+```
 > origin    https://github.com/YOUR_USERNAME/YOUR_FORK.git (fetch)
 > origin    https://github.com/YOUR_USERNAME/YOUR_FORK.git (push)
 > upstream  https://github.com/DataSnowman/EphrataTEALS.git (fetch)
 > upstream  https://github.com/DataSnowman/EphrataTEALS.git (push)
-``
+```
 
 Pull the upstream repository into your fork.
 
 Enter
 
-``
+```
 git pull upstream master
-``
+```
 
-## Run HelloWorld Sample
+### Run HelloWorld Sample
 
 Find the HelloWorld program in sampleCode.  The code should look like this:
 
-``
-public class HelloWorld {
+
+```
+public class HelloWorld {  
     public static void main (String [] args) {
         System.out.println("HelloWorld");
     }
 }
-``
+```
 
 Click on Run on the sidebar
 
@@ -270,6 +272,36 @@ Congrats! You are ready to right your own programs in the `studentWork` folder
 
 To save you open code you are going to frequently (suggested at the end of every class) run the following command in the terminal to push the changes to your forked repository.
 
-``
+```
 git push origin master
-``
+```
+
+### In future classes you will follow this routine:
+
+Open the terminal in your codespace using either the key shortcut
+
+```
+Ctrl + `
+```
+
+![terminalshortcut](https://raw.githubusercontent.com/DataSnowman/EphrataTEALS/master/images/terminalshortcut.png)
+
+Or use the Application Menu select `Terminal>New Terminal`
+
+![terminalMenu](https://raw.githubusercontent.com/DataSnowman/EphrataTEALS/master/images/terminalMenu.png)
+
+In the terminal copy and paste the following commands:
+
+### At begining of class period to get new code from the instructors
+
+Enter
+
+```
+git pull upstream master
+```
+### At the end of every class run the following command in the terminal to push the changes to your forked repository
+
+Enter 
+```
+git push origin master
+```
