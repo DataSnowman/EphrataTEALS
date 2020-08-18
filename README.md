@@ -20,7 +20,7 @@ Creating an Azure for Student subscription is a three-step process.
 
 Click [HERE](https://github.com/DataSnowman/EphrataTEALS/tree/master/docs/AzureForStudentVerificationActivation.pdf) to open the AzureForStudentVerificationActivation.pdf which has more details.
 
-Here are the basic directions if you don't use the pdf.
+Here are the basic directions if you don't use the pdf.  If you use the AzureForStudentVerificationActivation.pdf then you can skip forward to [GitHub Account - Configure your GitHub](https://github.com/DataSnowman/EphrataTEALS#github-account---configure-your-github)
 
 `Step 1:` Create a new Outlook.com email account:
 
@@ -96,7 +96,7 @@ Set up the codespace environment:
 
 [![Open in Visual Studio Online](https://img.shields.io/endpoint?style=social&url=https%3A%2F%2Faka.ms%2Fvso-badge)](https://online.visualstudio.com)
 
-1. Click `Create Codespace`
+Click `Create Codespace`
 
 ![codespacesCreate](https://raw.githubusercontent.com/DataSnowman/EphrataTEALS/master/images/codespacesCreate.png)
 
@@ -118,11 +118,11 @@ Set up the codespace environment:
 
 Click `Create` button
 
-2. Wait for the environment to be created, and then click `Connect` to connect to it. This will open a browser-based instance of Visual Studio Code.
+Wait for the environment to be created, and then click `Connect` to connect to it. This will open a browser-based instance of Visual Studio Code.
 
-3. Wait for a minute or so while the environment is set up for you. It might look like nothing is happening, but in the background we are installing some extensions that you will use in the labs. 
+Wait for a minute or so while the environment is set up for you. It might look like nothing is happening, but in the background we are installing some extensions that you will use in the labs. 
 
-4. After the REFRESH NOW file has appeared, refresh the web page to ensure all of the extensions are loaded and you're ready to start.
+After the REFRESH NOW file has appeared, refresh the web page to ensure all of the extensions are loaded and you're ready to start.
 
 ## Configure GitHub Username and email and Remote for Fork
 
