@@ -208,8 +208,8 @@ git remote -v
 Returns
 
 ```
-> origin  https://github.com/YOUR_USERNAME/YOUR_FORK.git (fetch)
-> origin  https://github.com/YOUR_USERNAME/YOUR_FORK.git (push)
+> origin  https://github.com/YOUR_USERNAME/EphrataTEALS (fetch)
+> origin  https://github.com/YOUR_USERNAME/EphrataTEALS (push)
 ```
 
 Specify a new remote upstream repository that will be synced with the fork.
@@ -231,8 +231,8 @@ git remote -v
 Returns
 
 ```
-> origin    https://github.com/YOUR_USERNAME/YOUR_FORK.git (fetch)
-> origin    https://github.com/YOUR_USERNAME/YOUR_FORK.git (push)
+> origin    https://github.com/YOUR_USERNAME/EphrataTEALS (fetch)
+> origin    https://github.com/YOUR_USERNAME/EphrataTEALS (push)
 > upstream  https://github.com/DataSnowman/EphrataTEALS.git (fetch)
 > upstream  https://github.com/DataSnowman/EphrataTEALS.git (push)
 ```
