@@ -251,7 +251,7 @@ Congratulations! You just ran your first program!
   4. You should see the new greeting in the terminal. You just wrote your first piece of code!
   5. To save your work, enter the following sequence of commands in the terminal:
   
-````
+```
 git add -a
 git commit -m "Modified HelloWorld.java"
 git push origin master
