@@ -148,9 +148,9 @@ pwd
 
   3. Now enter the following command (remember, "entering" a command means typing or pasting it into the terminal, then pressing Enter to execute it):
 
-    ```
-    git status
-    ```
+```
+git status
+```
 
   Your terminal should now look like the following, except it will say "EphrataTEALS" instead of "TEALS1":
 
@@ -158,79 +158,79 @@ pwd
 
   4. Enter the following command, replacing `<GitHubusername>` with the `<firstname>-<lastinitial>-ephrata-teals` username you created earlier:
 
-    ```
-    git config --global user.name "<GitHubusername>"
-    ```
+```
+git config --global user.name "<GitHubusername>"
+```
 
   5. Confirm that you have set the username correctly by entering the following command:
 
-    ```
-    git config --global user.name
-    ```
+```
+git config --global user.name
+```
 
   6. Enter the following command, replacing `email@example.com` with your `<firstname>-<lastinitial>-ephrata-teals@outlook.com` email:
 
-    ```
-    git config --global user.email "email@example.com"
-    ```
+```
+git config --global user.email "email@example.com"
+```
 
   7. Confirm that you have set the email address correctly by entering the following command:
 
-    ```
-    git config --global user.email
-    ```
+```
+git config --global user.email
+```
 
   8. Enter the following command:
 
-    ```
-    git remote -v
-    ```
+```
+git remote -v
+```
 
   9. Make sure that your terminal displays the following:
 
-    ```
-    > origin  https://github.com/<firstname>-<lastinitial>-ephrata-teals/EphrataTEALS (fetch)
-    > origin  https://github.com/<firstname>-<lastinitial>-ephrata-teals/EphrataTEALS (push)
-    ```
+```
+> origin  https://github.com/<firstname>-<lastinitial>-ephrata-teals/EphrataTEALS (fetch)
+> origin  https://github.com/<firstname>-<lastinitial>-ephrata-teals/EphrataTEALS (push)
+```
     
   10. Enter the following command as-is (_do not_ replace the username):
 
-    ```
-    git remote add upstream https://github.com/DataSnowman/EphrataTEALS.git
-    ```
+```
+git remote add upstream https://github.com/DataSnowman/EphrataTEALS.git
+```
 
   11. Enter the following command again:
 
-    ```
-    git remote -v
-    ```
+```
+git remote -v
+```
 
   12. Make sure that your terminal displays the following:
 
-    ```
-    > origin    https://github.com/<firstname>-<lastinitial>-ephrata-teals/EphrataTEALS (fetch)
-    > origin    https://github.com/<firstname>-<lastinitial>-ephrata-teals/EphrataTEALS (push)
-    > upstream  https://github.com/DataSnowman/EphrataTEALS.git (fetch)
-    > upstream  https://github.com/DataSnowman/EphrataTEALS.git (push)
-    ```
+```
+> origin    https://github.com/<firstname>-<lastinitial>-ephrata-teals/EphrataTEALS (fetch)
+> origin    https://github.com/<firstname>-<lastinitial>-ephrata-teals/EphrataTEALS (push)
+> upstream  https://github.com/DataSnowman/EphrataTEALS.git (fetch)
+> upstream  https://github.com/DataSnowman/EphrataTEALS.git (push)
+```
 
   13. Finally, enter the following command:
 
-    ```
-    git pull upstream master
-    ```
+```
+git pull upstream master
+```
 
 **Step 3: Run your first program!**
 
   1. In `sampleCode > Hello`, find `HelloWorld.java`.  The contents of the file should look like this:
 
-    ```
-    public class HelloWorld {  
-        public static void main (String [] args) {
-            System.out.println("HelloWorld");
-        }
+```
+public class HelloWorld {  
+    public static void main (String [] args) {
+        System.out.println("HelloWorld");
     }
-    ```
+}
+```
   2. Codespaces may automatically open some other tabs. If this happens, just close them and return to `HelloWorld.java`.
   3. On the sidebar, click the "Run" button (the one with the play button and the little bug):
 
@@ -251,11 +251,11 @@ Congratulations! You just ran your first program!
   4. You should see the new greeting in the terminal. You just wrote your first piece of code!
   5. To save your work, enter the following sequence of commands in the terminal:
   
-    ````
-    git add -a
-    git commit -m "Modified HelloWorld.java"
-    git push origin master
-    ```
+````
+git add -a
+git commit -m "Modified HelloWorld.java"
+git push origin master
+```
 
 ### In future classes:
 
