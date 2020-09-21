@@ -10,8 +10,9 @@ public class Rocket {
     /*
      * ROCKET LAB INSTRUCTIONS
      * 
-     * We are going to write a program to print the following to
-     * the console:
+     * 1. Write a program that prints the following pictures to
+     * the console. Consider how static methods and procedural
+     * decomposition can be used for this program.
      * 
      *    /\
      *   /  \
@@ -48,6 +49,11 @@ public class Rocket {
      *    Use it to draw a new picture.
      * C. Make your own ASCII art! Use Pikachu for inspiration or
      *    find examples online.
+     * 
+     * SUBMIT YOUR LAB!
+     * git add -A
+     * git commit -m "Unit 1 Rocket lab"
+     * git push origin master
      */
 
     public static void main(String[] args) {
