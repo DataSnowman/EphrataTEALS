@@ -18,7 +18,7 @@ public class FirstNameLastName {
     }
 
         public static void getFirstLetter(String x) {
-            char intials = x.charAt(0);
+            char intials = x.charAt(0);  // see Table 3.3 Useful Methods of String Objects in your text book
             System.out.println(intials);
         }
 }
