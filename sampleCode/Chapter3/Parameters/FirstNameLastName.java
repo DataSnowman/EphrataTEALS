@@ -6,14 +6,18 @@ public class FirstNameLastName {
         // declare variables
         String fname;
         String lname;
+        String mname;
 
         // assign variables
         fname = "Darwin";
         lname = "Schweitzer";
+        mname = "Edward";
 
         // call method
         getFirstLetter(fname);
+        getFirstLetter(mname);
         getFirstLetter(lname);
+        
 
     }
 
