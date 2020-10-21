@@ -1,4 +1,4 @@
-package sampleCode.Chapter3.Parameters;
+package sampleCode.Chapter3.Scanner;
 
 import java.util.Scanner;  // Import the Scanner class
 
