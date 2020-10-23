@@ -20,7 +20,7 @@ public class TipCalculatorParamsScanner {
         System.out.println("Brian will pay $" + totalWithTip + " including tip");
     }
     
-    public static double calculateTip(double mealTotal, int tipPercentage) {
+    public static double calculateTip(double mealTotal, double tipPercentage) {
         mealTotal *= 1 + (tipPercentage / 100);
         return mealTotal;
     }
