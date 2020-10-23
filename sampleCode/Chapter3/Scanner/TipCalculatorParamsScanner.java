@@ -16,7 +16,7 @@ public class TipCalculatorParamsScanner {
         int brianTipPercentage = console.nextInt();
 
         // Calculate the tip
-        double totalWithTip -= calculateTip(brianMeal, brianTipPercentage);
+        double totalWithTip = calculateTip(brianMeal, brianTipPercentage);
         System.out.println("Brian will pay $" + totalWithTip + " including tip");
     }
     
