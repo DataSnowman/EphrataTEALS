@@ -7,40 +7,24 @@ public class TipCalculatorParamsScanner {
 
         Scanner console = new Scanner(System.in);
 
-        // Obtain Brian's inputs
-
+        // Prompt for total money
         System.out.println("Enter Brian's Money in wallet: ");
         double brianMoney = console.nextDouble();
 
+        // Prompt for meal cost
         System.out.println("Enter Brian's Meal cost: ");
         double brianMeal = console.nextDouble();
 
-        // Obtain Darwin's inputs
-
-        System.out.println("Enter Darwin's Money in wallet: ");
-        double darwinMoney = console.nextDouble();
-        
-        System.out.println("Enter Darwin's Meal cost: ");
-        double darwinMeal = console.nextDouble();
-        
-        System.out.println("Enter Darwin's Tip %: ");
-        double darwinTip = console.nextDouble();
-
-        console.close();//write at end of code.
-
-        // Calculate Brian's Money in Wallet
+        // Calculate the tip and show money left
         brianMoney -= calculateTip(brianMeal);
         System.out.println("Brian has $" + brianMoney + " in his wallet");
 
-        // Calculate Darwin's Money in Wallet
-        darwinMoney -= calculateTip(darwinMeal, darwinTip);
-        System.out.println("Darwin has $" + darwinMoney + " in his wallet");
+        console.close();//write at end of code.
     }
 
     // Overloaded method definition for `calculateTip`
     public static double calculateTip(double mealTotal) {
-        mealTotal = mealTotal + (mealTotal * 0.10);
-        return mealTotal;
+        return calculateTip(mealTotal, 10.0); // assume 10%
     }
 
     public static double calculateTip(double mealTotal, double tipPercentage) {
