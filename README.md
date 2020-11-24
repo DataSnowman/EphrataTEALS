@@ -5,13 +5,6 @@ These instructions will guide you through the process of setting up Codespaces, 
 
 Think of Codespaces like Microsoft Word for code. You can write a really long essay in Notepad if you want to, but you'll almost always prefer to do it in Word or Google Docs.
 
-## High level process
-```
-Note: Leaving this image in place for historical purposes, but with Visual Studio Codespaces retiring on 02/17/2021 the user only requires a GitHub Username and password that can be signed up with any email address.  The Microsoft Account and Azure Subscription are nolonger required.  You just need access to the GitHub Codespaces Codespaces beta or later once Codespaces is generally available.  More details on requesting access follows.
-```
-
-![codespacesProcess](https://raw.githubusercontent.com/DataSnowman/EphrataTEALS/master/images/codespacesProcess.png)
-
 ### Create a Github account
 
 Create a Github account. Github is a free service that stores code for you in the cloud. It is the industry standard for storing and sharing software code. Think of it like Google Drive for code!
