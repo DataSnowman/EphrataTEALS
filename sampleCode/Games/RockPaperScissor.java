@@ -58,10 +58,10 @@ public class RockPaperScissor {
                 return x + " -- Scissors: Computer wins";
             }
             else if(choice1.equals("scissors") && choice2.equals("paper")){
-                return "You chose " + choice1 + " and the Computer chose " + choice2 + " -- Scissors: You win!";
+                return x + " -- Scissors: You win!";
             }
             else if(choice1.equals("scissors") && choice2.equals("rock")){
-                return "You chose " + choice1 + " and the Computer chose " + choice2 + " -- Rock: Computer wins";
+                return x + " -- Rock: Computer wins";
             }
             
             else
