@@ -46,22 +46,22 @@ public class RockPaperScissor {
                 return  x + " -- The result is a tie!";
             }
             else if(choice1.equals("rock") && choice2.equals("scissors")){
-                return x + " -- Rock: You win!";
+                return x + " -- Rock crushes Scissors: You win!";
             }
             else if(choice1.equals("rock") && choice2.equals("paper")){
-                return x + " -- Paper: Computer wins";
+                return x + " -- Paper covers Rock: Computer wins";
             }
             else if(choice1.equals("paper") && choice2.equals("rock")){
-                return x + " -- Paper: You win!";
+                return x + " -- Paper covers Rock: You win!";
             }
             else if(choice1.equals("paper") && choice2.equals("scissors")){
-                return x + " -- Scissors: Computer wins";
+                return x + " -- Scissors cut Paper: Computer wins";
             }
             else if(choice1.equals("scissors") && choice2.equals("paper")){
-                return x + " -- Scissors: You win!";
+                return x + " -- Scissors cut Paper: You win!";
             }
             else if(choice1.equals("scissors") && choice2.equals("rock")){
-                return x + " -- Rock: Computer wins";
+                return x + " -- Rock crushes Scissors: Computer wins";
             }
             
             else
