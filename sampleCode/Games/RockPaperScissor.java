@@ -8,12 +8,14 @@ public class RockPaperScissor {
 
         Scanner console = new Scanner(System.in);
 
+        String userChoice = "";
+
+        while(!userChoice.equalsIgnoreCase("quit")){ //while loop fixed
+
 
         // Prompt for User Choice
         System.out.print("Choose Rock, Paper, or Scissors; To end enter Quit: ");
-        String userChoice = console.next().toLowerCase();
-        
-        //while(!userChoice.equalsIgnoreCase("quit")){ //while infinite loop
+        userChoice = console.next().toLowerCase();
         
         double computerChoice = Math.random();
         String computerChoiceString = "";
@@ -35,7 +37,7 @@ public class RockPaperScissor {
         // Calculate winner
         String winner = whoWon(userChoice,computerChoiceString);
         System.out.println(winner);
-      //} //end of While
+      } //end of While
        
     }
 
