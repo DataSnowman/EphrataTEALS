@@ -8,7 +8,7 @@ public class ProcessingNumbers {
         System.out.println("0) Prints sum of integers entered");    //Calculate with sumall Method
         System.out.println("1) Prints smallest and largest integers entered");   //Calculate with minMax Method
         System.out.println("2) Prints sum of all even integers entered");    //Calculate with sumEven Method
-        System.out.println("3) Prints largest odd integers entered");     //Calculate with largestOdd Method
+        System.out.println("3) Prints largest odd integer entered");     //Calculate with largestOdd Method
         System.out.println();
 
         Scanner scanner = new Scanner(System.in);
