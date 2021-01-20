@@ -2,7 +2,7 @@
 // For rules, see `printHelp`.
 import java.util.Scanner;
 
-public class Yahtzee {
+public class BrianGame {
     // Prints the help screen, explaining the rules of the game.
     public static void printHelp() {
         System.out.println("OBJECT");
