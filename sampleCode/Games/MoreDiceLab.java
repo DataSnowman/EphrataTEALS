@@ -15,9 +15,9 @@ public class MoreDiceLab {
 
 // Uncomment the following lines once you finish Part 1
         // 
-        //System.out.println("Enter minium number of Armies and Press ENTER.");
+        //System.out.println("Enter minimum number of Armies and Press ENTER.");
         // Write Code to get value from console
-        //System.out.println("Enter maxium number of Armies and Press ENTER.");
+        //System.out.println("Enter maximum number of Armies and Press ENTER.");
         // Write Code to get value from console
 
         // Also modify single parameter calls to initializeArmies with multiple parameters
