@@ -1,3 +1,5 @@
+package sampleCode.Games;
+
 // YAHTZEE programmed by Brian Rogers.
 // For rules, see `printHelp`.
 import java.util.Scanner;
