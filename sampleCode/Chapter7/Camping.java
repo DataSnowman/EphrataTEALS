@@ -7,6 +7,10 @@ public class Camping {
     
       // dogNames array here
       
+      String[] dogNames = new String[3];
+      dogNames[0]="Baby";
+      dogNames[1]="Harlow";
+      dogNames[2]="Hudson";
 
 
       
@@ -22,7 +26,7 @@ public class Camping {
       
       // holdHudson array here and call sumHudsonHold Method
       
-
+      System.out.println(Arrays.toString(dogNames));
       // Println statements here
       /* Should output
       Baby growled 43 times!
