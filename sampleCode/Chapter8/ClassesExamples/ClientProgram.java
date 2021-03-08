@@ -13,6 +13,8 @@ public class ClientProgram {
 
         //Create student object student1
         
+        Student student1 = new Student();
+        student1.name = "Aaron";
 
         //Create forecast object forecastWA
 
