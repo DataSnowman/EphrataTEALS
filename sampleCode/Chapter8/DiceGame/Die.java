@@ -2,36 +2,40 @@ package sampleCode.Chapter8.DiceGame;
 
 import java.util.Random;
 
+/*****************************
+ * DO NOT MODIFY THIS CLASS. *
+ *****************************/
+
 /** Represents a standard six-sided die. */
 public class Die {
-    private int currentFace;
+    private int currentNumber;
 
     public Die() {
-        this.currentFace = 1;
+        this.currentNumber = 1;
     }
 
-    public int getCurrentFace() {
-        return currentFace;
+    public int getCurrentNumber() {
+        return currentNumber;
     }
 
     public int roll() {
         Random rand = new Random();
-        currentFace = rand.nextInt(6) + 1;
-        return currentFace;
+        currentNumber = rand.nextInt(6) + 1;
+        return currentNumber;
     }
 
     public String toString()  {
         String result = drawLine();
 
-        if (currentFace == 1) {
+        if (currentNumber == 1) {
             result += drawNoDots() + drawOneMiddleDot() + drawNoDots();
-        } else if (currentFace == 2) {
+        } else if (currentNumber == 2) {
             result += drawOneLeftDot() + drawNoDots() + drawOneRightDot();
-        } else if (currentFace == 3) {
+        } else if (currentNumber == 3) {
             result += drawOneLeftDot() + drawOneMiddleDot() + drawOneRightDot();
-        } else if (currentFace == 4) {
+        } else if (currentNumber == 4) {
             result += drawTwoDots() + drawNoDots() + drawTwoDots();
-        } else if (currentFace == 5) {
+        } else if (currentNumber == 5) {
             result += drawTwoDots() + drawOneMiddleDot() + drawTwoDots();
         } else {
             result += drawTwoDots() + drawTwoDots() + drawTwoDots();
