@@ -29,7 +29,7 @@ public class checkList {
             System.out.println("After sort, items = " + checkList);
 
             // What parameters do you need to pass?
-            sortCheckList(checkList, inputLine);
+            //sortCheckList(?, ?);
         }
     }
 
@@ -40,9 +40,8 @@ public class checkList {
    public static void sortCheckList (ArrayList<String> list, String item) {
       
 	   /* Write a for loop or for each loop that prints the sorted list with one item per row  */
-	   System.out.println("One item per row:");
-	   for(String counter: list){
-			System.out.println(counter);
-		}
+	   
+
+
    }   
 }
