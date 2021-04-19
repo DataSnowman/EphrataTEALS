@@ -1,4 +1,4 @@
-package studentWork.CardLab;
+package sampleCode.Chapter8.CardLab;
 
 import java.util.Arrays;
 import java.util.Collections;
