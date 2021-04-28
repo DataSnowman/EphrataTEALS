@@ -36,7 +36,7 @@ public class WarGameClient {
      * have more cards in their deck than the other player. If the players have the
      * same number of cards in each of their decks, then it is a tie. Print the outcome.
      */
-    private static void determineWinner(Deck player1, Deck player2) {
+    private static void determineWinner(Deck player, Deck computer) {
 
     }
 }
